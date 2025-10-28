@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Flow Visualization Demo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #111;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    h1 {
+      margin-top: 30px;
+      font-size: 1.8em;
+    }
+    video {
+      margin-top: 20px;
+      max-width: 90%;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+    }
+    p {
+      color: #aaa;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Flow Visualization: LES Simulation Result</h1>
+
+  <video controls autoplay muted loop playsinline>
+    <source src="https://raw.githubusercontent.com/MPMC-Lab/Flow-visualization/main/output.webm" type="video/webm">
+    <source src="https://raw.githubusercontent.com/MPMC-Lab/Flow-visualization/main/output.mp4" type="video/mp4">
+    Your browser does not support HTML5 video.
+  </video>
+
+  <p>© MPMC Lab, Yonsei University — Flow Visualization Project</p>
+</body>
+</html>
