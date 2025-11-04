@@ -1,1 +1,1 @@
-![Visualization of Urban flow](Urban_flow_animation_low_resolution.webm)
+![Visualization of Urban flow](Thumbnail.gif)
