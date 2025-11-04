@@ -1,1 +1,1 @@
-![설명 텍스트](output.webm)
+![animation](output.webm)
